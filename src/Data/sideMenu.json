@@ -1,0 +1,125 @@
+[
+  {
+    "label": "Dashboards",
+    "type": "group",
+    "children": [
+      {
+        "key": "sub1",
+        "label": "Default",
+        "icon": "default",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      },
+      {
+        "key": "sub2",
+        "label": "eCommerce",
+        "icon": "ecommerce",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      },
+      {
+        "key": "sub3",
+        "label": "projects",
+        "icon": "projects",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      },
+      {
+        "key": "sub4",
+        "label": "Online Courses",
+        "icon": "courses",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Pages",
+    "type": "group",
+    "children": [
+      {
+        "key": "sub5",
+        "label": "User Profile",
+        "icon": "profile",
+        "children": [
+          { "key": "1", "label": "Overview" },
+          { "key": "2", "label": "Projects" },
+          { "key": "3", "label": "Campaigns" },
+          { "key": "4", "label": "Documents" },
+          { "key": "4", "label": "Followers" }
+        ]
+      },
+      {
+        "key": "sub6",
+        "label": "Account",
+        "icon": "account",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      },
+      {
+        "key": "sub7",
+        "label": "Corporate",
+        "icon": "corporate",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      },
+      {
+        "key": "sub8",
+        "label": "Online Courses",
+        "icon": "courses",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      },
+      {
+        "key": "sub9",
+        "label": "Blog",
+        "icon": "blog",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      },
+      {
+        "key": "sub10",
+        "label": "Social",
+        "icon": "social",
+        "children": [
+          { "key": "1", "label": "Option 1" },
+          { "key": "2", "label": "Option 2" },
+          { "key": "3", "label": "Option 3" },
+          { "key": "4", "label": "Option 4" }
+        ]
+      }
+    ]
+  }
+]

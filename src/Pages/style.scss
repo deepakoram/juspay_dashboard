@@ -1,0 +1,23 @@
+.dashboard{
+    height: 100vh;
+}
+.card-style{
+   .ant-card{
+    border: none;
+       .ant-card-body{
+           height: 112px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+   }
+}
+.map-hover-effect{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transform-style: preserve-3d;
+    border-radius: 16px;
+}
+.map-hover-effect:hover{
+    transform: rotateY(10deg) rotateX(10deg) scale(1.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}

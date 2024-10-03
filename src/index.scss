@@ -1,0 +1,233 @@
+body{
+    font-family: "Inter", sans-serif;
+     background: '#ffff';
+     overflow: hidden;
+}
+.grey{
+    background: #333333 !important;
+    color: #ffffff;
+}
+.black{
+    background: #1C1C1C !important;
+    color: #ffffff;
+    .ant-breadcrumb-separator{
+        color: white;
+    }
+    .ant-menu-item:hover{
+        color: black !important;
+    }
+    .ant-menu-title-content{
+        color: white;
+    }
+    .ant-input{
+      color: white;
+    }
+    .ant-menu-item-group-title {
+        background-color: #1c1c1c !important; 
+        color: #ffffff !important; 
+      }
+    .ant-menu-submenu-title {
+        background-color: #1c1c1c !important; 
+        color: #ffffff !important; 
+      }
+    .ant-menu-item-group-list {
+        background-color: #1c1c1c !important; 
+        color: #ffffff !important; 
+      }
+      .ant-table-thead{
+        .ant-table-cell{
+            padding: 10px 0 10px 0 !important;
+            background: #1c1c1c !important;
+            color: #ffffff !important;
+            border: 1px solid #272727;
+        }
+    }
+    .ant-table-tbody{
+        .ant-table-cell{
+            padding: 10px 0 10px 0 !important;
+            background: #1c1c1c !important;
+            color: #ffffff !important;  
+            border: 1px solid #272727;     
+         }
+    }
+}
+.white{
+    background: #ffffff !important;
+}
+.scroll_x{
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.disabled_text{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color:"#1C1C1C66"
+}
+.regular_12{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.regular_14{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.semibold_14{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #1C1C1C;
+}
+.semibold_24{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+.border-style{
+    background-color: #F7F9FB;
+    border-radius: 16px;
+    padding: 24px;
+}
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex_center_column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.align_center_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.space_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.align_center{
+    display: flex;
+    align-items: center;
+}
+.justify_center{
+    display: flex;
+    justify-content: center;
+}
+.margin{
+    margin:10px
+}
+.margin_top{
+    margin-top: 20px;
+}
+.margin_left{
+    margin-left: 30px;
+}
+.margin_right{
+    margin-right: 30px;
+}
+.margin_bottom{
+    margin-bottom: 100px;
+}
+.padding{
+    padding: 30px;
+}
+.padding_none{
+    padding: 0 !important;
+}
+
+
+.gutter-box {
+    padding: 8px 0;
+    background: #00a0e9;
+  }
+.side_menu_mobile{
+    position: absolute;
+    z-index: 1;
+}
+.ant-table-thead{
+    .ant-table-cell{
+        padding: 10px 0 10px 0 !important;
+        color: #9fa1a2 !important;
+    }
+}
+.ant-table-tbody{
+    .ant-table-cell{
+        padding: 10px 0 10px 0 !important;
+        background-color: #F7F9FB !important;
+    }
+}
+.ant-progress-inner{
+    height: 5px;
+    .ant-progress-bg{
+        height: 5px !important;
+    }
+}
+.ant-menu-submenu-arrow{
+    display: none;
+}
+.ant-menu-item-group-list{
+    background-color: white;
+}
+.ant-menu-item{
+    color: black;
+}
+  /* 1. For Mobile Devices (Max-width 767px) */
+@media (max-width: 767px) {
+    .side_menu{
+        display: none;
+    }
+    .notification_bar{
+        display: none;
+    }
+    .header_style{
+        display: none;
+    }
+    .table_style{
+        overflow-x: scroll;
+    }
+    .order_list{
+        .ant-table-content{
+        overflow-x: scroll;
+        width: 1000px;
+        }
+    }
+    .dashboard{
+        padding-top: 60px;
+    }
+    
+}
+
+/* 2. For Tablets (768px - 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .side_menu_mobile{
+        display: none;
+     }
+     .notification_bar{
+        display: none;
+     }
+     .table_style{
+        overflow-x: scroll;
+    }
+}
+
+/* 3. For Laptops (992px - 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .side_menu_mobile{
+        display: none;
+     }
+}
+
+/* 4. For PCs (1200px and above) */
+@media (min-width: 1200px) {
+ .side_menu_mobile{
+    display: none;
+ }
+}
