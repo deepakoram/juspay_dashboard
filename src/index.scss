@@ -58,6 +58,9 @@ body{
     overflow-x: scroll;
     scrollbar-width: none;
 }
+.search_input{
+    width: 15%;
+}
 .disabled_text{
     font-size: 12px;
     line-height: 18px;
@@ -202,6 +205,15 @@ body{
     .dashboard{
         padding-top: 60px;
     }
+    .ant-table-container{
+        overflow-x: scroll;
+    }
+    .search_input{
+        width: 50%;
+    }
+    .donut_style{
+        height: 400px !important;
+    }
     
 }
 
@@ -216,6 +228,9 @@ body{
      .table_style{
         overflow-x: scroll;
     }
+    .donut_style{
+        height: 400px !important;
+    }
 }
 
 /* 3. For Laptops (992px - 1200px) */
@@ -223,6 +238,7 @@ body{
     .side_menu_mobile{
         display: none;
      }
+     
 }
 
 /* 4. For PCs (1200px and above) */

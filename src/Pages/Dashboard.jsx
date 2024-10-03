@@ -78,7 +78,7 @@ const Dashboard = () => {
       >
         {/* 1st row --------------------------------------------------------- */}
         <Row gutter={[25, 25]} className="margin_top">
-          <Col xs={24} md={12} sm={24} style={{ height: "auto" }}>
+          <Col xs={24} md={24} sm={24} lg={12} style={{ height: "auto" }}>
             <Row gutter={[16, 16]}>
               {data.map((item, index) => (
                 <Col key={index} xs={24} sm={12} md={12} lg={12}>
@@ -107,8 +107,9 @@ const Dashboard = () => {
 
           <Col
             xs={24}
-            md={12}
+            md={24}
             sm={24}
+            lg={12}
             className={dark ? "grey border-style" : "border-style"}
           >
             <Col className="semibold_14" style={{color: `${dark ? "white" : "black"}`}}>Projections vs Actuals</Col>
@@ -223,7 +224,8 @@ const Dashboard = () => {
             xs={24}
             lg={6}
             sm={24}
-            className={dark ? "grey border-style" : "border-style"}
+            md={24}
+            className={dark ? "grey border-style donut_style" : "border-style donut_style"}
             style={{ height: "auto" }}
           >
             <div>

@@ -12,3 +12,8 @@ Currently, two official plugins are available:
 
 - step 1 = npm i
 - step 2 = npm run dev
+
+
+# Feedback
+
+- Faced difficulties to mimic the chart design because of the 3rd party chart libraries.

@@ -138,7 +138,7 @@ const OrderList = () => {
     },
   };
   return (
-    <div className={dark ? "black padding" : "white padding"}>
+    <div className={dark ? "black padding" : "white padding"} style={{height:"100vh"}}>
       <div className="semibold_14">Order List</div>
       <div
         span={24}
@@ -157,7 +157,8 @@ const OrderList = () => {
           <img src={dark ? updownarrow_white : updownarrow} />
         </div>
         <Input
-          style={{ width: "15%" }}
+          // style={{ width: "15%" }}
+          className="search_input"
           placeholder="Search"
           prefix={<img src={search} />}
           onChange={handleSearch}

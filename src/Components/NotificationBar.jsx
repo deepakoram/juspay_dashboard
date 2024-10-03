@@ -75,6 +75,7 @@ const NotificationBar = () => {
         padding: 20,
         background: "white",
         borderLeft: "1px solid #cbcdce",
+        height:"100vh"
       }}
     >
       <section>
